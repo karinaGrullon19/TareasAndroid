@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F7FB">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1565C0"
+        android:title="Menu principal"
+        android:titleTextColor="#FFFFFF"
+        android:elevation="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Pantalla principal\n\nSelecciona una opción del menú"
+        android:textSize="22sp"
+        android:textColor="#333333"
+        android:gravity="center"/>
+
+
+</LinearLayout>

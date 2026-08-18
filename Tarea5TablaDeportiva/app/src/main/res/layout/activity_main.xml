@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="25dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTADOS MUNDIALISTAS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="#1565C0"
+        android:padding="15dp"
+        android:layout_marginBottom="25dp"/>
+
+    <TableRow
+        android:background="#E0E0E0"
+        android:padding="10dp">
+
+        <TextView
+            android:text="Equipo"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="Goles"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:padding="10dp">
+
+        <TextView
+            android:text="🇪🇸 España"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="3"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:padding="10dp">
+
+        <TextView
+            android:text="🇦🇷 Argentina"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="2"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:padding="10dp">
+
+        <TextView
+            android:text="🇫🇷 Francia"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="1"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:padding="10dp">
+
+        <TextView
+            android:text="🇨🇴 Colombia"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:text="0"
+            android:textSize="17sp"
+            android:layout_margin="10dp"/>
+
+    </TableRow>
+
+</TableLayout>

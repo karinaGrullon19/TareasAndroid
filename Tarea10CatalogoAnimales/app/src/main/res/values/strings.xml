@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Tarea10CatalogoAnimales</string>
+
+    <string name="open">Abrir menú</string>
+    <string name="close">Cerrar menú</string>
+
+</resources>

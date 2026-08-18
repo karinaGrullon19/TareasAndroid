@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carga de archivo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        style="?android:attr/progressBarStyleHorizontal"/>
+
+    <TextView
+        android:id="@+id/txtPorcentaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0%"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar carga"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
